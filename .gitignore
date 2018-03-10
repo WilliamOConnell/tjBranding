@@ -1,3 +1,6 @@
 # IntelliJ project files
 .idea
 *.iml
+/couch/uploads/.thumbs/
+/couch/uploads/file/
+/couch/uploads/image/
