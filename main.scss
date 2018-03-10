@@ -112,9 +112,9 @@ body {
 }
 #assetPreview {
   display: block;
-  width: 100%;
-  max-width: 400px;
+  max-width: 100%;
   margin: auto;
+  max-height: 50vh;
 }
 #assetDownloads {
   margin-top: 20px;
@@ -144,6 +144,9 @@ body {
   #assetSidebar {
     width: 350px;
     float: left;
+  }
+  #assetPreview {
+    max-height: unset;
   }
   #assetText {
     width: calc(100% - 350px);
