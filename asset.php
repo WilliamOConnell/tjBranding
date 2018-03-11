@@ -48,6 +48,7 @@
             <div><cms:show asset_description /></div>
         </div>
     </div>
+    <a id="githubLink" href="https://github.com/WilliamOConnell/tjBranding"></a>
 </body>
 </html>
 

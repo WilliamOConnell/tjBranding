@@ -17,7 +17,7 @@
     <div id="content">
         <h1>Assets</h1>
         <div id="assetGrid">
-            <cms:pages masterpage="asset.php">
+            <cms:pages masterpage="asset.php" orderby='page_title'>
                 <a class="assetGridItem" href="<cms:show k_page_link />">
                     <div class="previewContainer">
                         <div class="itemPreview" style="background-image: url('<cms:show preview_image />');"></div>
@@ -27,6 +27,7 @@
             </cms:pages>
         </div>
     </div>
+    <a id="githubLink" href="https://github.com/WilliamOConnell/tjBranding"></a>
 </body>
 </html>
 
