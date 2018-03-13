@@ -70,7 +70,7 @@ body {
       box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); }
     #assetGrid .assetGridItem .previewContainer {
       height: 210px;
-      background: url("/checkerboard.png") repeat;
+      background: url("checkerboard.png") repeat;
       border-radius: 5px 5px 0 0; }
     #assetGrid .assetGridItem .itemPreview {
       background-size: contain;
