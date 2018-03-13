@@ -32,7 +32,7 @@
 </head>
 <body>
     <div id="topbar">
-        <div id="topbarInside"><a href="/">TJ Branding</a></div>
+        <div id="topbarInside"><a href=".">TJ Branding</a></div>
     </div>
     <div id="content">
         <div id="assetSidebar">

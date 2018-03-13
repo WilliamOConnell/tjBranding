@@ -16,7 +16,7 @@
    even if you are using session configuration.
    See http://kcfinder.sunhater.com/install for setting descriptions */
 
-return array(
+$_CONFIG = array(
 
 
 // GENERAL SETTINGS
@@ -108,11 +108,19 @@ return array(
 
 // THE FOLLOWING SETTINGS CANNOT BE OVERRIDED WITH SESSION SETTINGS
 
-    '_sessionVar' => "KCFINDER",
-    '_check4htaccess' => true,
     '_normalizeFilenames' => false,
-    '_dropUploadMaxFilesize' => 10485760,
+    '_check4htaccess' => true,
     //'_tinyMCEPath' => "/tiny_mce",
+
+    '_sessionVar' => "KCFINDER",
+    //'_sessionLifetime' => 30,
+    //'_sessionDir' => "/full/directory/path",
+    //'_sessionDomain' => ".mysite.com",
+    //'_sessionPath' => "/my/path",
+
     //'_cssMinCmd' => "java -jar /path/to/yuicompressor.jar --type css {file}",
     //'_jsMinCmd' => "java -jar /path/to/yuicompressor.jar --type js {file}",
+
 );
+
+?>
