@@ -78,7 +78,7 @@ _.humanSize = function(size) {
 };
 
 _.getURL = function(act) {
-    var url = "browse.php?type=" + encodeURIComponent(_.type) + "&lng=" + encodeURIComponent(_.lang);
+    var url = "browse.php?type=" + encodeURIComponent(_.type) + "&lng=" + encodeURIComponent(_.lang) + "&" + window.location.href.split("&")[0].slice(window.location.href.split("&")[0].search("nonce"));
     if (_.opener.name)
         url += "&opener=" + encodeURIComponent(_.opener.name);
     if (act)
